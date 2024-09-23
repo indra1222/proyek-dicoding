@@ -10,6 +10,7 @@ st.write('Nama: Indra Mauludani Efendi')
 st.write('Email: IndraMauludani09@gmail.com')
 st.write('ID Dicoding: indramauludani14')
 
+# Menambahkan pertanyaan bisnis
 st.markdown("""
 ## Pertanyaan Bisnis:
 1. Apakah terdapat hubungan antara harga produk (price) dan biaya pengiriman (freight_value)?
@@ -32,7 +33,7 @@ st.sidebar.header('Pilih Analisis')
 show_correlation = st.sidebar.checkbox('Korelasi antara Harga dan Biaya Pengiriman')
 show_payment_distribution = st.sidebar.checkbox('Distribusi Metode Pembayaran')
 
-# Korelasi antara harga produk dan biaya pengiriman
+# Analisis korelasi antara harga produk dan biaya pengiriman
 if show_correlation:
     st.subheader('Korelasi antara Harga Produk dan Biaya Pengiriman')
     
@@ -57,7 +58,7 @@ if show_correlation:
     - Hal ini bisa jadi disebabkan oleh kebutuhan pengemasan yang lebih baik, ukuran produk yang lebih besar, atau penanganan khusus untuk barang-barang yang lebih mahal.
     """)
 
-# Distribusi metode pembayaran
+# Analisis distribusi metode pembayaran
 if show_payment_distribution:
     st.subheader('Distribusi Metode Pembayaran')
 
@@ -90,7 +91,8 @@ if show_payment_distribution:
     - Dari segi nilai transaksi, kartu kredit juga digunakan untuk pembelian dengan nilai lebih tinggi dibandingkan metode lainnya. Hal ini mengindikasikan bahwa pelanggan cenderung lebih nyaman menggunakan kartu kredit untuk transaksi bernilai besar karena fleksibilitas yang ditawarkan (misalnya, cicilan).
     - Pemahaman ini dapat digunakan untuk strategi promosi, di mana perusahaan dapat memberikan insentif atau penawaran khusus bagi pengguna kartu kredit untuk meningkatkan pembelian bernilai tinggi.
     """)
-# Conclusion section
+
+# Kesimpulan analisis
 st.markdown("""
 ## Conclusion:
 Berdasarkan hasil analisis yang telah dilakukan, dapat disimpulkan bahwa:
