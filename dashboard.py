@@ -90,3 +90,17 @@ if show_payment_distribution:
     - Dari segi nilai transaksi, kartu kredit juga digunakan untuk pembelian dengan nilai lebih tinggi dibandingkan metode lainnya. Hal ini mengindikasikan bahwa pelanggan cenderung lebih nyaman menggunakan kartu kredit untuk transaksi bernilai besar karena fleksibilitas yang ditawarkan (misalnya, cicilan).
     - Pemahaman ini dapat digunakan untuk strategi promosi, di mana perusahaan dapat memberikan insentif atau penawaran khusus bagi pengguna kartu kredit untuk meningkatkan pembelian bernilai tinggi.
     """)
+# Conclusion section
+st.markdown("""
+## Conclusion:
+Berdasarkan hasil analisis yang telah dilakukan, dapat disimpulkan bahwa:
+
+1. **Korelasi antara Harga Produk dan Biaya Pengiriman**:
+   - Dari matriks korelasi, kita menemukan bahwa terdapat korelasi positif antara harga produk dan biaya pengiriman. Hal ini berarti produk dengan harga yang lebih tinggi cenderung memiliki biaya pengiriman yang lebih besar. Korelasi ini mengindikasikan bahwa barang yang lebih mahal mungkin memerlukan pengemasan yang lebih baik atau penanganan khusus yang meningkatkan biaya pengiriman.
+
+2. **Distribusi Metode Pembayaran**:
+   - Analisis distribusi metode pembayaran menunjukkan bahwa kartu kredit merupakan metode pembayaran yang paling banyak digunakan. Metode ini juga sering digunakan untuk transaksi dengan nilai yang lebih tinggi, kemungkinan karena kemudahan dalam pembayaran cicilan. 
+   - Pemahaman ini dapat membantu perusahaan dalam merancang strategi pemasaran yang lebih efektif dengan menawarkan promosi atau insentif khusus bagi pengguna kartu kredit untuk meningkatkan penjualan.
+
+Dengan informasi ini, kebijakan terkait pengiriman dan promosi metode pembayaran dapat dioptimalkan untuk meningkatkan efisiensi dan kepuasan pelanggan.
+""")
