@@ -1,4 +1,4 @@
-Berikut pembaruan README dengan perubahan pada bagian **Fitur Utama** dan **Teknologi yang Digunakan**:
+
 
 ---
 
